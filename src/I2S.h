@@ -25,6 +25,7 @@
 
 /**
  * @brief I2S for RP2040 Processors using the PIO: Only 16 bitsPerSample are allowed by the PIO code.  Only write, no read.
+ * The default pins are: BCLK: GPIO26, LRCLK:GPIO27, DOUT: GPIO28. The LRCLK can not be defined separately and is BCLK+1!
  */
 class I2SClass : public Stream {
 public:
@@ -55,7 +56,9 @@ public:
     virtual void flush() override;
 
     virtual size_t write(uint8_t) override;
+
     virtual size_t write(const uint8_t *buffer, size_t size) override;
+    
     virtual int availableForWrite() override;
 
     /// Change the sample rate

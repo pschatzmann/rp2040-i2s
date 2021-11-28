@@ -1,4 +1,11 @@
 var searchData=
 [
-  ['i2sclass_2',['I2SClass',['../class_i2_s_class.html',1,'']]]
+  ['channel_5fcount_32',['channel_count',['../structaudio__format.html#a427c9d72cbb7a2d70e12fb135c573e79',1,'audio_format']]],
+  ['consumer_5fpool_5fgive_5fbuffer_5fdefault_33',['consumer_pool_give_buffer_default',['../group__pico__audio.html#ga7e8f2adc754f6a833b4f64cad83fbe1c',1,'consumer_pool_give_buffer_default(audio_connection_t *connection, audio_buffer_t *buffer):&#160;audio.cpp'],['../group__pico__audio.html#ga7e8f2adc754f6a833b4f64cad83fbe1c',1,'consumer_pool_give_buffer_default(audio_connection_t *connection, audio_buffer_t *buffer):&#160;audio.cpp']]],
+  ['consumer_5fpool_5ftake_5fbuffer_5fdefault_34',['consumer_pool_take_buffer_default',['../group__pico__audio.html#ga665bfe8e356c3691a9e0ea96f9a400c9',1,'consumer_pool_take_buffer_default(audio_connection_t *connection, bool block):&#160;audio.cpp'],['../group__pico__audio.html#ga665bfe8e356c3691a9e0ea96f9a400c9',1,'consumer_pool_take_buffer_default(audio_connection_t *connection, bool block):&#160;audio.cpp']]],
+  ['converting_5fcopy_35',['converting_copy',['../structconverting__copy.html',1,'']]],
+  ['converting_5fcopy_3c_20mono_3c_20tofmt_20_3e_2c_20stereo_3c_20fromfmt_20_3e_20_3e_36',['converting_copy&lt; Mono&lt; ToFmt &gt;, Stereo&lt; FromFmt &gt; &gt;',['../structconverting__copy_3_01_mono_3_01_to_fmt_01_4_00_01_stereo_3_01_from_fmt_01_4_01_4.html',1,'']]],
+  ['converting_5fcopy_3c_20multichannelfmt_3c_20fmt_2c_20channelcount_20_3e_2c_20multichannelfmt_3c_20fmt_2c_20channelcount_20_3e_20_3e_37',['converting_copy&lt; MultiChannelFmt&lt; Fmt, ChannelCount &gt;, MultiChannelFmt&lt; Fmt, ChannelCount &gt; &gt;',['../structconverting__copy_3_01_multi_channel_fmt_3_01_fmt_00_01_channel_count_01_4_00_01_multi_chan505404e845d026a7b1d702c22aa30a3c.html',1,'']]],
+  ['converting_5fcopy_3c_20multichannelfmt_3c_20tofmt_2c_20numchannels_20_3e_2c_20multichannelfmt_3c_20fromfmt_2c_20numchannels_20_3e_20_3e_38',['converting_copy&lt; MultiChannelFmt&lt; ToFmt, NumChannels &gt;, MultiChannelFmt&lt; FromFmt, NumChannels &gt; &gt;',['../structconverting__copy_3_01_multi_channel_fmt_3_01_to_fmt_00_01_num_channels_01_4_00_01_multi_ch40585379c1b0a937e087bceefdfa2ae7.html',1,'']]],
+  ['converting_5fcopy_3c_20stereo_3c_20tofmt_20_3e_2c_20mono_3c_20fromfmt_20_3e_20_3e_39',['converting_copy&lt; Stereo&lt; ToFmt &gt;, Mono&lt; FromFmt &gt; &gt;',['../structconverting__copy_3_01_stereo_3_01_to_fmt_01_4_00_01_mono_3_01_from_fmt_01_4_01_4.html',1,'']]]
 ];
