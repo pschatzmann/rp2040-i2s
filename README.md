@@ -1,7 +1,7 @@
 # rp2040-i2s
 
-The Rasperry Pico Core provided by Arduino is based on MBED and does not provide any I2S implementation. 
-The [core provided by Earle Phil Hower](https://github.com/earlephilhower/arduino-pico) however has one which relies on the [pico-extras](https://github.com/raspberrypi/pico-extras) from RaspberryPI.
+The Rasperry Pico Core implementation provided by Arduino is based on MBED and does not have any I2S implementation. 
+The [core from Earle Phil Hower](https://github.com/earlephilhower/arduino-pico) however has one which relies on the [pico-extras](https://github.com/raspberrypi/pico-extras) from RaspberryPI.
 
 I am combining these two solutions as a separate Arduino Library, so that anybody who wants to use the MBED implementation can use I2S as well.
 
