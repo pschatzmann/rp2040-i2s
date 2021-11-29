@@ -11,7 +11,7 @@
 // ======================
 // == DEBUGGING =========
 
-#define ENABLE_AUDIO_ASSERTIONS
+//#define ENABLE_AUDIO_ASSERTIONS
 
 #ifdef ENABLE_AUDIO_ASSERTIONS
 #define audio_assert(x) assert(x)

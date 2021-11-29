@@ -19,7 +19,7 @@
 */
 
 #include "I2S.h"
-
+#include <unistd.h> 
 #ifdef USE_TINYUSB
 // For Serial when selecting TinyUSB.  Can't include in the core because Arduino IDE
 // will not link in libraries called from the core.  Instead, add the header to all
