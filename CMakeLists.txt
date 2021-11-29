@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.9)
 project(rp2040-i2s)
 file(GLOB_RECURSE I2S_H src/*.h)
-add_library(rp2040-i2s MODULE src/I2S.cpp src/pico_audio/audio.cpp src/pico_audio_i2s/audio_utils.S src/pico_audio_i2s/audio_i2s.c src/pico_util_buffer/buffer.c )
+add_library(rp2040-i2s STATIC src/I2S.cpp src/pico_audio/audio.cpp src/pico_audio_i2s/audio_utils.S src/pico_audio_i2s/audio_i2s.c src/pico_util_buffer/buffer.c )
 target_include_directories(rp2040-i2s PUBLIC $I2S_H  )
