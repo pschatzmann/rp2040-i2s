@@ -4,6 +4,17 @@ include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
 set(CMAKE_CXX_FLAGS "-fpermissive -std=c++0x")
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
+add_definitions(-DPICO_BUFFER_USB_ALLOC_HACK)   
+if (PICO_SDK_VERSION_STRING VERSION_LESS "1.3.0")
+    message(FATAL_ERROR "Raspberry Pi Pico SDK version 1.3.0 (or later) required. Your version is ${PICO_SDK_VERSION_STRING}")
+endif()
+
+add_compile_options(-Wall
+    -Wno-format          # int != int32_t as far as the compiler is concerned because gcc has int32_t as long int
+    -Wno-unused-function # we have some for the docs that aren't called
+    -Wno-maybe-uninitialized
+)
+
 
 project(rp2040-i2s)
 pico_sdk_init()
@@ -17,7 +28,7 @@ add_library(rp2040-i2s
     src/I2S.cpp 
     src/pico_audio_i2s/audio_i2s.c 
     src/pico_util_buffer/buffer.c
-#    src/pico_audio/audio.cpp 
+    src/pico_audio/audio.cpp
     src/pico_audio/audio_utils.S 
 )
 
