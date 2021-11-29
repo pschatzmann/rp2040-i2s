@@ -18,7 +18,6 @@
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-//#include <Arduino.h>
 #include "I2S.h"
 
 #ifdef USE_TINYUSB

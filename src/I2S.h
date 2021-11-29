@@ -20,7 +20,7 @@
 
 #pragma once
 
-//#include <Arduino.h>
+#include <Arduino.h>
 #include "pico_audio_i2s/audio_i2s.h"
 
 /**

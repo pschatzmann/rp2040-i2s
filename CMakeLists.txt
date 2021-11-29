@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.9)
 
 include($ENV{PICO_SDK_PATH}/pico_sdk_init.cmake)
-pico_sdk_init()
 
 project(rp2040-i2s C CXX ASM)
+
+pico_sdk_init()
+
 file(GLOB_RECURSE I2S_H src/*.h)
-
-
 
 add_library(rp2040-i2s  
     src/I2S.cpp src/pico_audio/audio.cpp 
@@ -21,11 +21,8 @@ target_link_libraries(rp2040-i2s PRIVATE
     pico_multicore 
     pico_util 
     pico_unique_id
-    hardware_pwm 
     hardware_adc
     hardware_clocks
-    hardware_spi
-    hardware_i2c
     hardware_pio
     hardware_dma
 )
