@@ -7,8 +7,7 @@ add_library(rp2040-i2s
     src/pico_audio_i2s/audio_i2s.c 
     src/pico_util_buffer/buffer.c )
 
-set_target_properties(rp2040-i2s PROPERTIES PUBLIC_HEADER src/I2S.h)
-target_include_directories(rp2040-i2s PRIVATE src)
+target_include_directories(rp2040-i2s PUBLIC src)
 
 install(TARGETS rp2040-i2s
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
