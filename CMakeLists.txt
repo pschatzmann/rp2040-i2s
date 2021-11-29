@@ -7,7 +7,7 @@ add_library(rp2040-i2s
     src/pico_audio_i2s/audio_i2s.c 
     src/pico_util_buffer/buffer.c )
 
-target_include_directories(rp2040-i2s PUBLIC src)
+target_include_directories(rp2040-i2s PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
 
 install(TARGETS rp2040-i2s
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
