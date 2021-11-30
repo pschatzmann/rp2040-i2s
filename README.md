@@ -6,15 +6,16 @@ The [core from Earle Phil Hower](https://github.com/earlephilhower/arduino-pico)
 I am combining these two solutions as a separate Arduino Library, so that anybody who wants to use the MBED implementation can use I2S as well.
 
 ### Status
-This funcitonality is giving linker errors in MBed and some strange assembler errors in pico-arduino. So nothing is working!
 
+The library can be used toghether with the [Pico-Arduino](https://github.com/pschatzmann/pico-arduino.git) Library
+
+This funcitonality however is giving linker errors in MBed
 - https://github.com/arduino/ArduinoCore-mbed/issues/367
-- https://github.com/raspberrypi/pico-sdk
-
 
 ### Documentation
 
 [Here is the class documentation](https://pschatzmann.github.io/rp2040-i2s/html/class_i2_s_class.html)
+
 
 ### Installation
 
