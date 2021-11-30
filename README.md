@@ -9,7 +9,7 @@ I am combining these two solutions as a separate Arduino Library, so that it can
 
 The library works without probems with the [Pico-Arduino](https://github.com/pschatzmann/pico-arduino.git) Library
 
-This funcitonality however is giving linker errors in MBed: https://github.com/arduino/ArduinoCore-mbed/issues/367
+This funcitonality however is giving [linker errors](https://github.com/arduino/ArduinoCore-mbed/issues/367) when used in the standard Arduino MBED. 
 
 ### Documentation
 
