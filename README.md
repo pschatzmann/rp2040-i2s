@@ -3,14 +3,13 @@
 The Rasperry Pico Core implementation provided by Arduino is based on MBED and does not have any I2S implementation. 
 The [core from Earle Phil Hower](https://github.com/earlephilhower/arduino-pico) however has one which relies on the [pico-extras](https://github.com/raspberrypi/pico-extras) from RaspberryPI.
 
-I am combining these two solutions as a separate Arduino Library, so that anybody who wants to use the MBED implementation can use I2S as well.
+I am combining these two solutions as a separate Arduino Library, so that it can be used with the [Pico-Arduino](https://github.com/pschatzmann/pico-arduino.git) Library.
 
 ### Status
 
-The library can be used toghether with the [Pico-Arduino](https://github.com/pschatzmann/pico-arduino.git) Library
+The library works without probems with the [Pico-Arduino](https://github.com/pschatzmann/pico-arduino.git) Library
 
-This funcitonality however is giving linker errors in MBed
-- https://github.com/arduino/ArduinoCore-mbed/issues/367
+This funcitonality however is giving linker errors in MBed: https://github.com/arduino/ArduinoCore-mbed/issues/367
 
 ### Documentation
 
