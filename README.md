@@ -8,6 +8,10 @@ I am combining these two solutions as a separate Arduino Library, so that anybod
 ### Status
 This funcitonality is giving linker errors in MBed and some strange assembler errors in pico-arduino. So nothing is working!
 
+- https://github.com/arduino/ArduinoCore-mbed/issues/367
+- https://github.com/raspberrypi/pico-sdk
+
+
 ### Documentation
 
 [Here is the class documentation](https://pschatzmann.github.io/rp2040-i2s/html/class_i2_s_class.html)
