@@ -5,11 +5,6 @@ The [core from Earle Phil Hower](https://github.com/earlephilhower/arduino-pico)
 
 I am combining these two solutions as a separate Arduino Library, so that it can be used with the [Pico-Arduino](https://github.com/pschatzmann/pico-arduino.git) Library.
 
-### Status
-
-The library works without probems with the [Pico-Arduino](https://github.com/pschatzmann/pico-arduino.git) Library
-
-This funcitonality however is giving [linker errors](https://github.com/arduino/ArduinoCore-mbed/issues/367) when used in the standard Arduino MBED. 
 
 ### Documentation
 
