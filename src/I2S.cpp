@@ -50,7 +50,7 @@ bool I2SClass::setBCLK(pin_size_t pin) {
     return true;
 }
 
-bool I2SClass::setDOUT(pin_size_t pin) {
+bool I2SClass::setDATA(pin_size_t pin) {
     if (_running || (pin > 29)) {
         return false;
     }

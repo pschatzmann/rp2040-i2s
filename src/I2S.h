@@ -34,7 +34,7 @@ public:
     /// Defines the BCLK pin
     bool setBCLK(pin_size_t pin);
     /// Defines the Data pin
-    bool setDOUT(pin_size_t pin);
+    bool setDATA(pin_size_t pin);
 
     /// Starts the processing by defining the sample rate
     bool begin(long sampleRate);
